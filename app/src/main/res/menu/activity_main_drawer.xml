@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_slideshow" />
+        <item
+            android:id="@+id/nav_consultation"
+            android:icon="@android:drawable/ic_menu_add"
+            android:title="Consultation" />
+        <item
+            android:id="@+id/nav_Pharmacy"
+            android:icon="@android:drawable/sym_contact_card"
+            android:title="Pharmacy" />
+        <item
+            android:id="@+id/nav_lab"
+            android:icon="@android:drawable/ic_menu_agenda"
+
+            android:title="Laboratory" />
+
+    </group>
+    <item android:title="Talk to us">
+        <menu>
+            <item
+                android:id="@+id/nav_chart"
+                android:icon="@android:drawable/ic_dialog_email"
+
+                android:title="Chart Now" />
+            <item
+                android:id="@+id/nav_call"
+                android:icon="@android:drawable/sym_action_call"
+
+                android:title="Call Now" />
+            <item
+                android:id="@+id/nav_email"
+                android:icon="@android:drawable/ic_dialog_email"
+
+                android:title="Address " />
+            <item
+                android:id="@+id/nav_direction"
+                android:icon="@android:drawable/ic_menu_directions"
+
+                android:title="Address " />
+
+        </menu>
+
+    </item>
+</menu>
